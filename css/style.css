@@ -1,53 +1,8 @@
-.box {
-	min-height: 200px;
-	background-color: grey;
-	border: 2px solid black;
+.accorh2{
+	color: red;
+}
 
-}
-.box1 {
-	min-height: 200px;
-	background-color: grey;
-	border: 2px solid black;
 
-}
-.box h1{
-	text-align: center;
-}
-.prac_cont{
-	min-height: 200px;
-	background-color: cyan;
-	text-align: center;
-}
-.backcolor{
-	min-height: 100px;
-	background-color: red;
-	border: 1px solid black;
-}
-.backcolor2{
-	min-height: 200px;
-	background-color: green;
-}
-.bg{
-	min-height: 100px;
-	border: 1px solid white;
-}
-.bgc1{
-	background-color: red;
-
-}
-.bgc2{
-	background-color: green;
-
-}
-.bgc3{
-	background-color: cyan;
-
-}
-.bgc4{
-	background-color: yellow;
-
-}
-.bgc5{
-	background-color: blue;
-
+.breadborder{
+	border: 2px solid red;
 }
