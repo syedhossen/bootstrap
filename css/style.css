@@ -1,35 +1,37 @@
-body{
-	padding-top: 10px;
-}
-
-.accorh2{
-	color: red;
-}
 
 
-.breadborder{
-	border: 2px solid red;
-}
-/*.c_shadow{
-	-webkit-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.75);
-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.75);
-}*/
-.menu{
-	text-transform: uppercase;
-
-}
-.menu ul li a:hover{
-	color:#15a4fa !important;
+/*Nav Bar Starts */
+	.menu{
+		text-transform: uppercase;
+     }
+	.menu ul li a:hover{
+			color:#15a4fa !important;
 	border-bottom:1px solid #15a4fa;
-	text-transform: upprcase;
-}
-.c_btn-outline {
-    color: #15a4fa;
-    border-color: #15a4fa;
+	}
+	/*Nav Bar Ends*/
+
+	/*layout starts*/
+	.layout_bg{
+		background-color: yellow;
+	}
+	.box{
+		min-height: 80px;
+
+	}
+	.red{
+		background-color: lime;
+	}
+	/*layout Ends*/
+
+	/*Crousel Starts*/
+
+.cust_indicator  button {
+	height: 15px !important;
+	width: 15px !important;
+	border-radius: 50%;
 }
 .c_height{
-	max-height: 350px;
+	max-height: 400px;
 }
 .cusrom_prev {
     left: 89%;
@@ -40,30 +42,56 @@ box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.75);
    width: 8%;
    
 }
-.carousel-indicators {
-    position: absolute;
-    right: 0;
-    bottom: 84%;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-right: 15%;
-    margin-bottom: 1
-rem
-;
-    margin-left: 15%;
-    list-style: none;
-}
-.cust_butt{
-	height: 15px;
-	width: 15px;
+	/*Crousel Ends*/
+
+	/*Custom Slider Starts*/
+	.banner {
+	background-image: url(../images/sea.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+} 
+.innerSlider{
+	background-color: rgba(1,1,1,.7);
+	color: white;
+	padding: 80px;
 }
 
+.innerSlider h2{
+	font-size: 30px;
+	margin-bottom: 50px;
 
-.carousel-indicators [data-bs-target]{
-	height: 15px;
-	width: 15px;
-	border-radius: 50;
 }
+.innerSlider p{
+	font-size: 20px;
+	margin-bottom: 50px;
+
+}
+
+     .tbutton{
+	margin-left: 20%;
+    border: none;
+    text-transform: uppercase;
+
+}
+
+	/*Custom Slider Ends*/
+
+	/*Accordion Starts*/
+
+.accorh2{
+	color: red;
+}
+	/*Accordion Ends*/
+
+.breadborder{
+	border: 2px solid red;
+}
+/*.c_shadow{
+	-webkit-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.75);
+}*/
+
+
