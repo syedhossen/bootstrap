@@ -52,6 +52,9 @@
 	background-size: cover;
 
 } 
+.padding{
+	padding: 0px 21px;
+}
 .innerSlider{
 	background-color: rgba(1,1,1,.7);
 	color: white;
